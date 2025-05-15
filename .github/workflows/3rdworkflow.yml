@@ -1,11 +1,11 @@
 name: 3rdjob 
-on: [push]
+on: push
 
 jobs:
  EchoandDate:
   runs-on: ubuntu-latest
   steps:
     - name: Print a message and current date
-      run: |
+      run:
           echo "The date of today is"
           date
