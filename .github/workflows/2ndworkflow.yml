@@ -1,7 +1,7 @@
-name: hello-world
+name: 2ndjob
 on: push
 jobs:
-  my-job:
+  secondjob:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
