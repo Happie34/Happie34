@@ -1,0 +1,20 @@
+name: myfirstworkflow
+on: push
+jobs:
+ firstjob:
+   runs on: Ubuntu-latest
+   steps:
+   - name: create file
+     run: mkdir happie.txt
+   
+   - name: show files
+     run: ls -l
+
+  - name: display text
+    echo: "This is my first workflow."
+    - name: open link
+      run: curl "https://www.mural.co/apps"
+   
+   
+   
+  
